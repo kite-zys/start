@@ -28,7 +28,7 @@ from pytorch_transformers import (WEIGHTS_NAME, BertConfig, BertTokenizer)
 from pytorch_transformers import AdamW, WarmupLinearSchedule
 
 logger = logging.getLogger(__name__)
-
+####
 # set the random seed for repeat
 def set_seed(args):
     random.seed(args.seed)
